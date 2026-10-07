@@ -13,7 +13,7 @@ let quantidadeAtual = 1;
 // 1. ATIVAR / DESATIVAR BLOQUEIO DE HORÁRIO
 // true  = Bloqueia automaticamente fora de Sexta/Sábado (19h30 às 22h)
 // false = DESATIVA o bloqueio (permite fazer pedidos/testes a qualquer hora)
-const bloqueioHorarioAtivo = true;
+const bloqueioHorarioAtivo = false;
 
 // 2. LISTA DE PRODUTOS ESGOTADOS (Hambúrgueres e Porções)
 const produtosEsgotados = [
